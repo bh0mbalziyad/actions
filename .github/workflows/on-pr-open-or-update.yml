@@ -1,0 +1,11 @@
+name: "Container for Deploy/Redeploy Preview links"
+on: [pull_request, workflow_dispatch]
+
+jobs:
+  deploy-redeploy-link:
+    name: "Deploy/Redeploy Preview links"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Hello"
+        run: |
+          echo This action was run
