@@ -1,4 +1,4 @@
-name: "Container for Deploy/Redeploy Preview links"
+name: "Create Review Apps on PR open/update"
 on: [pull_request, workflow_dispatch]
 
 jobs:
