@@ -1,4 +1,4 @@
-name: "Container for Deploy/Redeploy Preview links"
+name: "Destroy Review Apps on PR close/merge"
 on:
   pull_request:
     types:
